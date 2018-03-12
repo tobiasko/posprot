@@ -1,0 +1,22 @@
+Package: posprot
+Type: Package
+Title: Positional Proteomics in R
+Version: 0.1.2
+Authors@R: person("Tobias", "Kockmann", email = "tobias.kockmann@biol.ethz.ch", role = c("aut", "cre"))
+Depends: R (>= 3.3.0)
+Suggests: devtools, roxygen2, testthat
+Description: Analysis of positional proteomics data in R.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+Imports: plyr,
+    IRanges,
+    Biostrings,
+    BiocGenerics,
+    AhoCorasickTrie,
+    dplyr,
+    knitr,
+    methods,
+    magrittr
